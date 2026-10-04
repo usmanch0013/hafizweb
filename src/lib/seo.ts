@@ -3,8 +3,8 @@ import { CURRENT_FY } from './site';
 
 export const SITE_NAME = 'AusCGT';
 export const SITE_TAGLINE = 'Free Australian Finance & Tax Calculators';
-export const SITE_URL = process.env.NEXT_PUBLIC_SITE_URL || 'https://auscgt.com.au';
-export const SITE_EMAIL = 'contact@auscgt.com.au';
+export const SITE_URL = process.env.NEXT_PUBLIC_SITE_URL || 'https://cgthub.au';
+export const SITE_EMAIL = 'contact@cgthub.au';
 
 export interface PageSeo {
   title: string;

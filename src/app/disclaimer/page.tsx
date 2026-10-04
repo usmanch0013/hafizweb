@@ -9,7 +9,7 @@ export default function DisclaimerPage() {
       <h1>Disclaimer</h1>
 
       <p>
-        The information provided by AusCGT (auscgt.com.au) is for general informational and
+        The information provided by AusCGT (cgthub.au) is for general informational and
         educational purposes only. All information on the site is provided in good faith, however
         we make no representation or warranty of any kind, express or implied, regarding the
         accuracy, adequacy, validity, reliability, availability, or completeness of any

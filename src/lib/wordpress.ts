@@ -46,7 +46,7 @@ export async function getWordPressPosts(limit = 6): Promise<WordPressPostPreview
     url.searchParams.set('order', 'desc');
 
     const res = await fetch(url.toString(), {
-      next: { revalidate: 300 },
+      next: { revalidate: 60 }, // new WP articles appear on the main domain within ~1 minute
       headers: { Accept: 'application/json' },
     });
 

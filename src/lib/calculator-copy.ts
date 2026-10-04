@@ -20,6 +20,6 @@ export function buildCopyText(
     if (highlight.note) lines.push(highlight.note.replace(/^\*/, ''));
   }
 
-  lines.push('', 'Generated at auscgt.com.au — estimates only, not tax advice.');
+  lines.push('', 'Generated at cgthub.au — estimates only, not tax advice.');
   return lines.join('\n');
 }

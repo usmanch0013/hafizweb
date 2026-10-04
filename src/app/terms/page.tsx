@@ -10,7 +10,7 @@ export default function TermsPage() {
       <p><em>Last updated: September 2026</em></p>
 
       <p>
-        By accessing and using AusCGT (auscgt.com.au), you agree to be bound by these Terms of
+        By accessing and using AusCGT (cgthub.au), you agree to be bound by these Terms of
         Service. If you do not agree, please do not use our Service.
       </p>
 

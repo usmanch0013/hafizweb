@@ -14,12 +14,12 @@ const plusJakarta = Plus_Jakarta_Sans({
 
 export const metadata: Metadata = {
   ...buildMetadata(HOME_SEO),
-  metadataBase: new URL(process.env.NEXT_PUBLIC_SITE_URL || 'https://auscgt.com.au'),
+  metadataBase: new URL(process.env.NEXT_PUBLIC_SITE_URL || 'https://cgthub.au'),
   title: {
     default: HOME_SEO.title,
     template: `%s | ${SITE_NAME}`,
   },
-  authors: [{ name: SITE_NAME, url: process.env.NEXT_PUBLIC_SITE_URL || 'https://auscgt.com.au' }],
+  authors: [{ name: SITE_NAME, url: process.env.NEXT_PUBLIC_SITE_URL || 'https://cgthub.au' }],
   creator: SITE_NAME,
   publisher: SITE_NAME,
   category: 'Finance',

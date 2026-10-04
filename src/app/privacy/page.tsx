@@ -10,7 +10,7 @@ export default function PrivacyPage() {
       <p><em>Last updated: September 2026</em></p>
 
       <p>
-        AusCGT (&quot;we&quot;, &quot;our&quot;, &quot;us&quot;) operates the website auscgt.com.au
+        AusCGT (&quot;we&quot;, &quot;our&quot;, &quot;us&quot;) operates the website cgthub.au
         (the &quot;Service&quot;). This Privacy Policy explains how we collect, use, and protect
         information when you use our Service.
       </p>
