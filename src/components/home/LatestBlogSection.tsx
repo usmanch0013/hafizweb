@@ -17,10 +17,10 @@ export default async function LatestBlogSection() {
               <span className="section-label">Latest Articles</span>
               <h2 className="mt-2 text-2xl font-bold text-slate-900 sm:text-3xl">From the blog</h2>
               <p className="mt-2 text-slate-500">
-                Tax tips, property guides and finance articles on{' '}
-                <a href={BLOG_URL} className="font-medium text-teal-700 hover:underline">
-                  blog.cgthub.au
-                </a>
+                Tax tips, property guides and finance articles —{' '}
+                <Link href="/blog" className="font-medium text-teal-700 hover:underline">
+                  read them all here
+                </Link>
                 .
               </p>
             </div>

@@ -2,6 +2,7 @@ import type { Metadata } from 'next';
 import { Plus_Jakarta_Sans } from 'next/font/google';
 import './globals.css';
 import SiteChrome from '@/components/SiteChrome';
+import CookieConsent from '@/components/CookieConsent';
 import JsonLd from '@/components/seo/JsonLd';
 import Script from 'next/script';
 import { HOME_SEO, SITE_NAME, buildMetadata, organizationJsonLd } from '@/lib/seo';
@@ -43,6 +44,7 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
           />
         )}
         <SiteChrome>{children}</SiteChrome>
+        <CookieConsent />
       </body>
     </html>
   );

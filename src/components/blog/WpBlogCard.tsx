@@ -10,7 +10,7 @@ interface WpBlogCardProps {
 export default function WpBlogCard({ post, featured = false }: WpBlogCardProps) {
   return (
     <Link
-      href={post.link}
+      href={`/blog/${post.slug}`}
       className={`group flex flex-col overflow-hidden rounded-xl border border-slate-200 bg-white transition-all hover:border-teal-200 hover:shadow-lg ${
         featured ? 'md:col-span-2 md:flex-row' : ''
       }`}
