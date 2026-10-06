@@ -106,6 +106,12 @@ export default function Calculator() {
         </ResultsPanel>
       }
     >
+      <div className="mb-5 rounded-lg border border-amber-200/80 bg-amber-50 px-4 py-3 text-sm text-amber-900">
+        <strong>Heads up:</strong> from 1 July 2027, the 50% CGT discount is replaced by cost-base
+        indexation plus a 30% minimum tax on net capital gains (Treasury Laws Amendment (Tax Reform
+        No.&nbsp;1) Act 2026). This calculator uses current 2026&ndash;27 rules &mdash; the discount
+        still applies to gains accrued by 30 June 2027.
+      </div>
       <div className="grid grid-cols-1 gap-5 sm:grid-cols-2">
         <InputField label="Purchase Price" value={purchasePrice} onChange={setPurchasePrice} prefix="$" placeholder="500,000" min={0} />
         <InputField label="Sold Price" value={soldPrice} onChange={setSoldPrice} prefix="$" placeholder="650,000" min={0} />
