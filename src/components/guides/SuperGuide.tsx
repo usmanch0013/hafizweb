@@ -496,8 +496,8 @@ export default function SuperGuide() {
       </div>
 
       <p>
-        Salary sacrifice is not automatically optimal for everyone. Lower-income earners in the 16%
-        or 18% tax brackets (including Medicare levy) gain less from converting income taxed at
+        Salary sacrifice is not automatically optimal for everyone. Lower-income earners in the 15%
+        or 17% tax brackets (including Medicare levy) gain less from converting income taxed at
         those rates into 15% super contributions. In some cases, after-tax contributions paired with
         the government co-contribution may produce a better outcome for eligible low and middle
         income earners.

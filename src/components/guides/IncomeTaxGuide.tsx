@@ -88,23 +88,23 @@ export default function IncomeTaxGuide() {
             </tr>
             <tr>
               <td className="px-4 py-2.5">$18,201 – $45,000</td>
-              <td className="px-4 py-2.5">16%</td>
-              <td className="px-4 py-2.5 text-slate-500">16c for each $1 over $18,200</td>
+              <td className="px-4 py-2.5">15%</td>
+              <td className="px-4 py-2.5 text-slate-500">15c for each $1 over $18,200</td>
             </tr>
             <tr>
               <td className="px-4 py-2.5">$45,001 – $135,000</td>
               <td className="px-4 py-2.5">30%</td>
-              <td className="px-4 py-2.5 text-slate-500">$4,288 plus 30c for each $1 over $45,000</td>
+              <td className="px-4 py-2.5 text-slate-500">$4,020 plus 30c for each $1 over $45,000</td>
             </tr>
             <tr>
               <td className="px-4 py-2.5">$135,001 – $190,000</td>
               <td className="px-4 py-2.5">37%</td>
-              <td className="px-4 py-2.5 text-slate-500">$35,100 plus 37c for each $1 over $135,000</td>
+              <td className="px-4 py-2.5 text-slate-500">$31,020 plus 37c for each $1 over $135,000</td>
             </tr>
             <tr>
               <td className="px-4 py-2.5">$190,001 and over</td>
               <td className="px-4 py-2.5">45%</td>
-              <td className="px-4 py-2.5 text-slate-500">$51,600 plus 45c for each $1 over $190,000</td>
+              <td className="px-4 py-2.5 text-slate-500">$51,370 plus 45c for each $1 over $190,000</td>
             </tr>
           </tbody>
         </table>
@@ -117,9 +117,9 @@ export default function IncomeTaxGuide() {
         workers, and students who only work casually during the year.
       </p>
       <p>
-        The jump from 16% to 30% at $45,001 is the largest bracket change in the 2026-27 scale.
-        If your taxable income is $45,000 exactly, your income tax is $4,288. If it is $45,001,
-        you pay $4,288 plus 30 cents on that extra dollar, which is $4,288.30. Moving into a
+        The jump from 15% to 30% at $45,001 is the largest bracket change in the 2026-27 scale.
+        If your taxable income is $45,000 exactly, your income tax is $4,020. If it is $45,001,
+        you pay $4,020 plus 30 cents on that extra dollar, which is $4,020.30. Moving into a
         higher bracket never reduces your overall take-home pay.
       </p>
 
@@ -405,12 +405,12 @@ export default function IncomeTaxGuide() {
           <span className="border-b border-slate-300 pb-2 text-right font-mono">$35,000</span>
         </div>
         <p className="my-4 text-sm text-slate-600">
-          Tax on income above $18,200: ($35,000 − $18,200) × 16% = $2,688
+          Tax on income above $18,200: ($35,000 − $18,200) × 15% = $2,520
         </p>
         <div className="space-y-2 rounded-xl border border-slate-200 bg-white p-4 text-sm shadow-sm">
           <div className="flex flex-col justify-between gap-1 sm:flex-row sm:items-center">
             <span className="text-slate-500">Income tax:</span>
-            <span className="font-mono font-bold">$2,688</span>
+            <span className="font-mono font-bold">$2,520</span>
           </div>
           <div className="flex flex-col justify-between gap-1 sm:flex-row sm:items-center">
             <span className="text-slate-500">Medicare levy (2%):</span>
@@ -418,15 +418,15 @@ export default function IncomeTaxGuide() {
           </div>
           <div className="flex flex-col justify-between gap-1 border-t border-slate-100 pt-2 sm:flex-row sm:items-center">
             <span className="font-medium text-slate-700">Total tax:</span>
-            <span className="font-mono font-bold text-red-600">$3,388</span>
+            <span className="font-mono font-bold text-red-600">$3,220</span>
           </div>
           <div className="flex flex-col justify-between gap-1 sm:flex-row sm:items-center">
             <span className="font-medium text-slate-700">Take-home pay:</span>
-            <span className="font-mono font-bold text-emerald-600">$31,612</span>
+            <span className="font-mono font-bold text-emerald-600">$31,780</span>
           </div>
         </div>
         <p className="mt-4 text-xs text-slate-500">
-          Sarah&apos;s marginal rate is 16%. Her effective rate is 9.7%. She may also qualify for
+          Sarah&apos;s marginal rate is 15%. Her effective rate is 9.2%. She may also qualify for
           a LITO of around $575, which would reduce her actual tax below this estimate.
         </p>
       </div>
@@ -443,14 +443,14 @@ export default function IncomeTaxGuide() {
           <span className="border-b border-slate-300 pb-2 text-right font-mono">$85,000</span>
         </div>
         <p className="my-4 text-sm text-slate-600">
-          Bracket 2 ($18,201–$45,000): ($45,000 − $18,200) × 16% = $4,288<br />
+          Bracket 2 ($18,201–$45,000): ($45,000 − $18,200) × 15% = $4,020<br />
           Bracket 3 ($45,001–$85,000): ($85,000 − $45,000) × 30% = $12,000<br />
-          Total income tax: $4,288 + $12,000 = $16,288
+          Total income tax: $4,020 + $12,000 = $16,020
         </p>
         <div className="space-y-2 rounded-xl border border-slate-200 bg-white p-4 text-sm shadow-sm">
           <div className="flex flex-col justify-between gap-1 sm:flex-row sm:items-center">
             <span className="text-slate-500">Income tax:</span>
-            <span className="font-mono font-bold">$16,288</span>
+            <span className="font-mono font-bold">$16,020</span>
           </div>
           <div className="flex flex-col justify-between gap-1 sm:flex-row sm:items-center">
             <span className="text-slate-500">Medicare levy (2%):</span>
@@ -458,15 +458,15 @@ export default function IncomeTaxGuide() {
           </div>
           <div className="flex flex-col justify-between gap-1 border-t border-slate-100 pt-2 sm:flex-row sm:items-center">
             <span className="font-medium text-slate-700">Total tax:</span>
-            <span className="font-mono font-bold text-red-600">$17,988</span>
+            <span className="font-mono font-bold text-red-600">$17,720</span>
           </div>
           <div className="flex flex-col justify-between gap-1 sm:flex-row sm:items-center">
             <span className="font-medium text-slate-700">Take-home pay:</span>
-            <span className="font-mono font-bold text-emerald-600">$67,012</span>
+            <span className="font-mono font-bold text-emerald-600">$67,280</span>
           </div>
         </div>
         <p className="mt-4 text-xs text-slate-500">
-          James&apos;s marginal rate is 30%. His effective rate is 21.2%. Every additional dollar
+          James&apos;s marginal rate is 30%. His effective rate is 20.8%. Every additional dollar
           he earns is taxed at 30 cents plus 2 cents Medicare levy until he reaches $135,001.
         </p>
       </div>
@@ -483,14 +483,14 @@ export default function IncomeTaxGuide() {
           <span className="border-b border-slate-300 pb-2 text-right font-mono">$115,000</span>
         </div>
         <p className="my-4 text-sm text-slate-600">
-          Bracket 2: $4,288<br />
+          Bracket 2: $4,020<br />
           Bracket 3: ($115,000 − $45,000) × 30% = $21,000<br />
-          Total income tax: $4,288 + $21,000 = $25,288
+          Total income tax: $4,020 + $21,000 = $25,020
         </p>
         <div className="space-y-2 rounded-xl border border-slate-200 bg-white p-4 text-sm shadow-sm">
           <div className="flex flex-col justify-between gap-1 sm:flex-row sm:items-center">
             <span className="text-slate-500">Income tax:</span>
-            <span className="font-mono font-bold">$25,288</span>
+            <span className="font-mono font-bold">$25,020</span>
           </div>
           <div className="flex flex-col justify-between gap-1 sm:flex-row sm:items-center">
             <span className="text-slate-500">Medicare levy (2%):</span>
@@ -498,11 +498,11 @@ export default function IncomeTaxGuide() {
           </div>
           <div className="flex flex-col justify-between gap-1 border-t border-slate-100 pt-2 sm:flex-row sm:items-center">
             <span className="font-medium text-slate-700">Total tax:</span>
-            <span className="font-mono font-bold text-red-600">$27,588</span>
+            <span className="font-mono font-bold text-red-600">$27,320</span>
           </div>
           <div className="flex flex-col justify-between gap-1 sm:flex-row sm:items-center">
             <span className="font-medium text-slate-700">Take-home pay:</span>
-            <span className="font-mono font-bold text-emerald-600">$92,412</span>
+            <span className="font-mono font-bold text-emerald-600">$92,680</span>
           </div>
         </div>
         <p className="mt-4 text-xs text-slate-500">
@@ -516,7 +516,7 @@ export default function IncomeTaxGuide() {
       <p>
         Deductions reduce your taxable income, which in turn reduces the amount of tax you pay.
         The value of a deduction depends on your marginal tax rate: a $1,000 deduction saves you
-        $160 if you are in the 16% bracket, but $450 if you are in the 45% bracket. You can only
+        $150 if you are in the 15% bracket, but $450 if you are in the 45% bracket. You can only
         claim deductions for expenses that are directly related to earning your income, and you
         must be able to substantiate your claims with records.
       </p>
@@ -601,8 +601,8 @@ export default function IncomeTaxGuide() {
         Your effective tax rate is your total tax (including Medicare levy) divided by your
         taxable income, expressed as a percentage. It represents your overall tax burden as a
         share of everything you earn. For someone on $85,000 with no deductions, the effective
-        rate is approximately 21.2%, well below the 30% marginal rate, because a large portion
-        of income is taxed at 0% and 16%.
+        rate is approximately 20.8%, well below the 30% marginal rate, because a large portion
+        of income is taxed at 0% and 15%.
       </p>
 
       <div className="my-6 rounded-xl border border-slate-200 bg-slate-50 p-5 sm:p-6">
@@ -611,7 +611,7 @@ export default function IncomeTaxGuide() {
           <span className="text-slate-500">Marginal rate:</span>
           <span className="text-right font-mono font-bold text-blue-600">30%</span>
           <span className="text-slate-500">Effective rate:</span>
-          <span className="text-right font-mono font-bold text-emerald-600">21.2%</span>
+          <span className="text-right font-mono font-bold text-emerald-600">20.8%</span>
         </div>
         <p className="mt-4 mb-0 text-sm text-slate-600">
           The gap between these two figures illustrates why the progressive system is designed
@@ -754,33 +754,18 @@ export default function IncomeTaxGuide() {
 
       <h2>Recent Tax Changes for 2026-27</h2>
       <p>
-        The most significant change for the 2026-27 financial year is the implementation of the
-        revised Stage 3 tax cuts. Originally legislated in 2019 with different parameters, the
-        cuts were modified in early 2024 to provide greater relief to lower and middle income
-        earners. The key changes that took effect from 1 July 2024 include:
+        The most significant change for the 2026-27 financial year took effect on 1 July 2026:
+        the tax rate on income between $18,201 and $45,000 was cut from 16% to <strong>15%</strong>.
+        This builds on the revised Stage 3 tax cuts of 1 July 2024, which had earlier reduced the
+        same bracket from 19% to 16% and consolidated the 32.5% and 37% brackets into a single
+        30% bracket covering $45,001 to $135,000.
       </p>
 
-      <ul className="list-disc">
-        <li>
-          The rate on income between $18,201 and $45,000 was reduced from 19% to <strong>16%</strong>.
-        </li>
-        <li>
-          The 32.5% and 37% brackets were consolidated into a single <strong>30%</strong> bracket
-          covering income from $45,001 to $135,000.
-        </li>
-        <li>
-          The threshold for the 37% rate was lifted from $120,000 to <strong>$135,000</strong>.
-        </li>
-        <li>
-          The threshold for the top 45% rate was lifted from $180,000 to <strong>$190,000</strong>.
-        </li>
-      </ul>
-
       <p>
-        These changes mean that most taxpayers pay less income tax in 2026-27 compared to the
-        previous financial year. Someone earning $60,000 saves approximately $804 in income tax.
-        Someone earning $100,000 saves approximately $2,179. Higher earners above $146,000 also
-        benefit, though the savings are proportionally smaller relative to income at the top end.
+        The 2026-27 cut means most taxpayers pay less income tax than in the previous financial
+        year. Everyone earning above $45,000 saves exactly $268 in income tax compared to 2025-26
+        (the full second bracket now costs $4,020 instead of $4,288). Lower earners save
+        proportionally less — for example, someone on $35,000 saves $168.
       </p>
 
       <div className="my-6 rounded-xl border border-blue-100 bg-blue-50/50 p-5 sm:p-6">
@@ -791,7 +776,7 @@ export default function IncomeTaxGuide() {
             shade-in threshold at $29,033.
           </li>
           <li>
-            The HELP minimum repayment threshold for 2026-27 is $54,435, with the lowest
+            The HELP minimum repayment threshold for 2026-27 is $69,528, with the lowest
             repayment rate at 1%.
           </li>
           <li>
